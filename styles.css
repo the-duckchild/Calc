@@ -1,12 +1,15 @@
 body {
-  background-image: url("assets\pen-markers-pencils-with-copy-space.jpg");
-  background-size: cover;
+  background-image: url("assets/desk.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .calculator {
-  max-width: 75%;
-  background: #faf9f6;
+  width: 50%;
+  max-width: 450px;
+  min-width: 200px;
+  background: silver;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10.5px);
   -webkit-backdrop-filter: blur(10.5px);
@@ -48,4 +51,8 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.num-btn {
+  min-width: 30px;
 }

@@ -7,19 +7,62 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Calculator Project</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
+
+
   <body>
-    <!--[if lt IE 7]>
+    <div class ="pagediv"> 
+        <div class="calcdisplay">
+            <p class="calcdisplay" id"calcdisplay>0</p>
+            <p class="resultdisplay ]">0</p>  
+        </div>
+    <div class="buttons">
+        <p>
+           
+                <button class="num-btn display="none"><img src="assets\number-1_9494567.png" width="100rem"></button>
+                <button class="num-btn"><img src="assets\number-2_9494599.png" width="100rem"></button>
+                <button class="num-btn"><img src="assets\number-3_9494620.png" width="100rem"></button>
+        </p>
+
+        <p>
+           
+            <button class="num-btn"><img src="assets\number-4_9494624.png" width="100rem"></button>
+            <button class="num-btn"><img src="assets\number-5_9494626.png" width="100rem"></button>
+            <button class="num-btn"><img src="assets\number-6_9494629.png" width="100rem"></button>
+    </p>
+    <p>
+           
+        <button class="num-btn"><img src="assets\number-7_9494630.png" width="100rem"></button>
+        <button class="num-btn"><img src="assets\number-8_9494633.png" width="100rem"></button>
+        <button class="num-btn"><img src="assets\number-9_9494634.png" width="100rem"></button>
+</p>
+
+<p>
+           
+    <button class="num-btn"><img src="assets\zero_7232998.png" width="100rem"></button>
+    
+</p>
+
+<p>
+    <button class="clear-button">Clear</button>
+
+    <button class="Del-button">Del</button>
+  </p>
+
+    </div>
+
+    </div><!--[if l<t IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
 
-    <script src="" async defer></script>
+    <script src="script.js" async defer></script>
   </body>
 </html>

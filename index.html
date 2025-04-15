@@ -14,49 +14,82 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 
-
   <body>
-    <div class ="pagediv"> 
-        <div class="calcdisplay">
-            <p class="calcdisplay" id"calcdisplay>0</p>
-            <p class="resultdisplay ]">0</p>  
-        </div>
-    <div class="buttons">
+    <div class="calculator">
+      <div class="display">
+        <p class="calcdisplay" id="calcdisplay">0</p>
+        <p class="resultdisplay" id="resultdisplay">0</p>
+      </div>
+      <div class="buttons grid grid-cols-3 gap-2">
         <p>
-           
-                <button class="num-btn display="none"><img src="assets\number-1_9494567.png" width="100rem"></button>
-                <button class="num-btn"><img src="assets\number-2_9494599.png" width="100rem"></button>
-                <button class="num-btn"><img src="assets\number-3_9494620.png" width="100rem"></button>
+          <button
+            class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 active:transistion-shadow duration-150"
+          >
+            <img src="assets\number-1_9494567.png" width="100rem" />
+          </button>
+          <button
+            class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          >
+            <img src="assets\number-2_9494599.png" width="100rem" />
+          </button>
+          <button
+            class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          >
+            <img src="assets\number-3_9494620.png" width="100rem" />
+          </button>
         </p>
 
         <p>
-           
-            <button class="num-btn"><img src="assets\number-4_9494624.png" width="100rem"></button>
-            <button class="num-btn"><img src="assets\number-5_9494626.png" width="100rem"></button>
-            <button class="num-btn"><img src="assets\number-6_9494629.png" width="100rem"></button>
-    </p>
-    <p>
-           
-        <button class="num-btn"><img src="assets\number-7_9494630.png" width="100rem"></button>
-        <button class="num-btn"><img src="assets\number-8_9494633.png" width="100rem"></button>
-        <button class="num-btn"><img src="assets\number-9_9494634.png" width="100rem"></button>
-</p>
+          <button
+            class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          >
+            <img src="assets\number-4_9494624.png" width="100rem" />
+          </button>
+          <button
+            class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          >
+            <img src="assets\number-5_9494626.png" width="100rem" />
+          </button>
+          <button
+            class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          >
+            <img src="assets\number-6_9494629.png" width="100rem" />
+          </button>
+        </p>
+        <p>
+          <button
+            class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          >
+            <img src="assets\number-7_9494630.png" width="100rem" />
+          </button>
+          <button
+            class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          >
+            <img src="assets\number-8_9494633.png" width="100rem" />
+          </button>
+          <button
+            class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          >
+            <img src="assets\number-9_9494634.png" width="100rem" />
+          </button>
+        </p>
 
-<p>
-           
-    <button class="num-btn"><img src="assets\zero_7232998.png" width="100rem"></button>
-    
-</p>
+        <p>
+          <button
+            class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          >
+            <img src="assets\zero_7232998.png" width="100rem" />
+          </button>
+        </p>
 
-<p>
-    <button class="clear-button">Clear</button>
+        <p>
+          <button class="clear-button">Clear</button>
 
-    <button class="Del-button">Del</button>
-  </p>
-
+          <button class="Del-button">Del</button>
+        </p>
+      </div>
     </div>
-
-    </div><!--[if l<t IE 7]>
+    <!--[if l<t IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
         <a href="#">upgrade your browser</a> to improve your experience.

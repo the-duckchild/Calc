@@ -1,6 +1,51 @@
-#button1 {
-  background-image: url("assets\number-1_9494567.png");
-  background-color: transparent;
+body {
+  background-image: url("assets\pen-markers-pencils-with-copy-space.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.calculator {
+  max-width: 75%;
+  background: #faf9f6;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  justify-content: center;
   margin: auto;
-  width: 100%;
+  margin-top: 75px;
+}
+
+.display {
+  background-color: black;
+  border: 20px;
+  border-radius: 13px 10px;
+  margin-bottom: 16px;
+  text-align: right;
+  padding-right: 15px;
+  padding-bottom: 0.7em;
+  height: 5em;
+  font-size: 1.2em;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.calcdisplay {
+  padding-top: 10px;
+  height: 2em;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.resultdisplay {
+  color: aqua;
+  height: 5em;
+  font-weight: 500;
+
+  font-size: 1.3em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

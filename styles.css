@@ -10,10 +10,10 @@ body {
   max-width: 450px;
   min-width: 200px;
   background: silver;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 16px 32px 16px #000000);
   backdrop-filter: blur(10.5px);
   -webkit-backdrop-filter: blur(10.5px);
-  border-radius: 10px;
+  border-radius: 25px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   justify-content: center;
   margin: auto;
@@ -23,12 +23,13 @@ body {
 .display {
   background-color: black;
   border: 20px;
-  border-radius: 13px 10px;
+  border-radius: 25px 25px;
   margin-bottom: 16px;
+
   text-align: right;
   padding-right: 15px;
   padding-bottom: 0.7em;
-  height: 5em;
+  height: 6em;
   font-size: 1.2em;
   font-weight: 400;
   overflow: hidden;

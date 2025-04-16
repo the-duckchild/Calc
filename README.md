@@ -19,3 +19,6 @@
    git clone https://github.com/your-username/Calc.git
 
 2.Open index.html in your browser.
+
+Based on the calculator at: 
+https://github.com/Torn2code/BerryCalculatorJS

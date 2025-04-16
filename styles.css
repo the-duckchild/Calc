@@ -11,7 +11,7 @@ body {
   min-width: 200px;
   background: silver;
   box-shadow: 0 16px 32px 16px #000000;
-  /* backdrop-filter: blur(10.5px);*/
+  backdrop-filter: blur(10.5px);
   -webkit-backdrop-filter: blur(10.5px);
   border-radius: 25px;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -24,31 +24,38 @@ body {
   background-color: black;
   border: 20px;
   border-radius: 25px 25px;
-  margin-bottom: 16px;
-
+  margin-bottom: 10px;
   text-align: right;
   padding-right: 15px;
   padding-bottom: 0.7em;
-  height: 6em;
-  font-size: 1.2em;
+  height: 7.5em;
   font-weight: 400;
   overflow: hidden;
 }
 
 .calcdisplay {
-  padding-top: 10px;
-  height: 2em;
-  color: white;
-  font-size: 1.3em;
+  height: 1.5em;
+  color: #ffff00;
+  font-size: 2em;
   font-weight: 400;
+  font-family: "Silkscreen", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px;
 }
 
 .resultdisplay {
   color: aqua;
-  height: 5em;
+  height: 1.5em;
   font-weight: 500;
-
-  font-size: 1.3em;
+  font-family: "Silkscreen", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 2em;
+  padding: 10px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

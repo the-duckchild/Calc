@@ -27,111 +27,145 @@
         <!--"one"-->
         <button
           class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 active:transistion-shadow duration-150"
+          onclick="updateCalculation('1')"
+          visibility="invisible"
         >
-          <img src="assets\number-1_9494567.png" width="75rem" />
+          <img src="assets\number-1_9494567.png" width="75rem" alt="number one in green circle" />
         </button>
         <!--"two"-->
         <button
-          class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 active:transistion-shadow duration-150"
+          onclick="updateCalculation('2')"
         >
-          <img src="assets\number-2_9494599.png" width="75rem" />
+          <img src="assets\number-2_9494599.png" width="75rem" alt="number two in red circle" />
         </button>
         <!--"three"-->
         <button
           class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('3')"
         >
-          <img src="assets\number-3_9494620.png" width="75rem" />
+          <img src="assets\number-3_9494620.png" width="75rem" alt="number three in green circle"/>
         </button>
         <!--"plus"-->
         <button
-          class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          class="orange-button drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('+')"
         >
-          <img src="assets/plus_17035810.png" width="75rem" />
+          <img src="assets/plus_17035810.png" width="75rem" alt="plus sign in orange square"/>
         </button>
 
         <!-- Second row of buttons -->
         <!--"four"-->
         <button
           class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('4')"
         >
-          <img src="assets\number-4_9494624.png" width="75rem" />
+          <img src="assets\number-4_9494624.png" width="75rem" alt="number four in red circle" />
         </button>
         <!--"five"-->
         <button
           class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('5')"
         >
-          <img src="assets\number-5_9494626.png" width="75rem" />
-        </button>
+          <img src="assets\number-5_9494626.png" width="75rem" alt="number five in green circle" />
         <!--"six"-->
         <button
           class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('6')"
         >
-          <img src="assets\number-6_9494629.png" width="75rem" />
+          <img src="assets\number-6_9494629.png" width="75rem" alt="number six in red circle" />
         </button>
         <!--"minus"-->
         <button
-          class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          class="orange-button drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('-')"
         >
-          <img src="assets\_17035834.png" width="75rem" />
+          <img src="assets\_17035834.png" width="75rem" alt="minus sign in orange square" />
         </button>
 
         <!-- Third row of buttons -->
-
+        <!--"seven"-->
         <button
           class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('7')"
         >
-          <img src="assets\number-7_9494630.png" width="75rem" />
-        </button>
-        <button
-          class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
-        >
-          <img src="assets\number-8_9494633.png" width="75rem" />
-        </button>
-        <button
-          class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
-        >
-          <img src="assets\number-9_9494634.png" width="75rem" />
+          <img src="assets\number-7_9494630.png" width="75rem" alt="number seven in green circle" />
         </button>
 
+        <!--"eight"-->
         <button
           class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('8')"
         >
-          <img src="assets\asterisk_17035705.png" width="75rem" />
+          <img src="assets\number-8_9494633.png" width="75rem" alt="number eight in red circle"  />
+        </button>
+
+        <!--"nine"-->
+        <button
+          class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('9')"
+        >
+          <img src="assets\number-9_9494634.png" width="75rem" alt="number nine in green circle" />
+        </button>
+
+        <!--"multiply"-->
+        <button
+          class="orange-button drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('*')"
+        >
+          <img src="assets\asterisk_17035705.png" width="75rem" alt="multiplication sign in orange square" />
         </button>
 
         <!-- Fourth  row of buttons -->
+
+        <!--"backspace"-->
         <button
           class="Del-button drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
-        >
-          <img src="assets\dot_17035755.png" width="75rem" />
-        </button>
-        <button
-          class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
-        >
-          <img src="assets\zero_7232998.png" width="75rem" />
-        </button>
-        <button
-          class="Del-button drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="deleteLastCharacter()"
+          id="Del-button"
         >
           <img src="assets\back_10398166.png" width="75rem" />
         </button>
 
+        <!--"zero"-->
         <button
-          class="clear-button drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          class="num-btn drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('0')"
+        >
+          <img src="assets\zero_7232998.png" width="75rem" />
+        </button>
+
+        <!--"point"-->
+        <button
+          class="orange-button drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('.')"
+        >
+          <img src="assets\dot_17035755.png" width="75rem" />
+        </button>
+
+        <!--"divide"-->
+        <button
+          class="orange-button drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150"
+          onclick="updateCalculation('/')"
+          
         >
           <img src="assets\slash_17035826.png" width="75rem" />
         </button>
 
         <!-- Fifth  row of buttons -->
-
+        <!--"clear"-->
         <button
           class="clear-button drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150 col-span-[3]col-1"
+          onclick="clearDisplay()"
         >
           <img src="assets\letter-c_9313392.png" width="75rem" />
         </button>
 
+        <!--"equals"-->
+
         <button
           class="clear-button drop-shadow-md/75 active:drop-shadow-sm/10 transistion-shadow duration-150 col-4"
+          onclick="calculateResult();"
         >
           <img src="assets\equal_17035760.png" width="75rem" />
         </button>

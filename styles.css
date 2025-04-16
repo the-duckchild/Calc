@@ -10,8 +10,8 @@ body {
   max-width: 450px;
   min-width: 200px;
   background: silver;
-  box-shadow: 0 16px 32px 16px #000000);
-  backdrop-filter: blur(10.5px);
+  box-shadow: 0 16px 32px 16px #000000;
+  /* backdrop-filter: blur(10.5px);*/
   -webkit-backdrop-filter: blur(10.5px);
   border-radius: 25px;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -56,4 +56,8 @@ body {
 
 .num-btn {
   min-width: 30px;
+}
+
+.buttons {
+  font-size: 0;
 }
